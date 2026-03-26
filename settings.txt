@@ -1,0 +1,4 @@
+data_root: "C:\Users\brouw\Documents\PhD\Projects\LiteratureQueeryThalamusTime\Data"
+email: "e.a.brouwer2@uva.nl"
+tool: "searching_thalamus_literature"
+api_key: null
