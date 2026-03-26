@@ -1,0 +1,8 @@
+queries:
+  broad_title_abstract:
+    description: Broad thalamus corpus using title and abstract
+    query: '(thalamus[Title/Abstract] OR thalamic[Title/Abstract] OR thalamocortical[Title/Abstract])'
+
+  broad_title_only:
+    description: Broad thalamus corpus using titles only
+    query: '(thalamus[Title] OR thalamic[Title] OR thalamocortical[Title])'
