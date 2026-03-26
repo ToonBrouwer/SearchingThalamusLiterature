@@ -1,0 +1,19 @@
+name: thalamus-framing
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pandas
+  - numpy
+  - requests
+  - lxml
+  - matplotlib
+  - scikit-learn
+  - jupyter
+  - pyyaml
+  - tqdm
+  - pip:
+      - sentence-transformers
+      - umap-learn
+      - hdbscan
