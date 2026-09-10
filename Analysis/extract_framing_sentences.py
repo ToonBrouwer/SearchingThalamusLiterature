@@ -1,0 +1,218 @@
+"""
+Extract thalamus-framing sentences from PMC full-text articles.
+
+Reads a CSV of full-text articles produced by the enrichment pipeline, splits
+every article into sentences, and classifies each sentence that mentions
+'thalamus' as either a framing sentence or not.
+
+A sentence is a framing sentence if it matches at least one of:
+  - a verb-trigger pattern  (e.g. "the thalamus is", "the thalamus serves as")
+  - an appositive pattern   (e.g. "the thalamus, a relay station, ...")
+
+Inputs:
+    Data/interim/fulltext/pmc_fulltext_<date>.csv   (via config / paths)
+        Required columns: pmid, pmcid, year, journal, title,
+                          publication_types, full_text
+
+Outputs (Data/interim/sentence_extraction/):
+    thalamus_all_sentences.csv      — every sentence mentioning 'thalamus',
+                                      with is_framing flag and trigger details
+    thalamus_framing_sentences.csv  — subset where is_framing == True
+
+Dependencies:
+    Reads settings from Code/settings.yml via config.load_settings().
+    Uses Code/paths.py build_data_dirs() to resolve Data/ subdirectories.
+    Compatible with the thalamus-embed conda environment.
+"""
+
+import re
+from pathlib import Path
+from typing import Optional, Tuple
+
+import pandas as pd
+
+from config import load_settings
+from paths import build_data_dirs
+
+
+# ── Thalamus detection pattern ────────────────────────────────────────────────
+THALAMUS_PATTERN = re.compile(r"\bthalamus\b", re.IGNORECASE)
+
+# ── Verb-trigger phrases that indicate a framing sentence ─────────────────────
+VERB_TRIGGERS = [
+    "thalamus is",
+    "the thalamus is",
+    "thalamus acts",
+    "the thalamus acts",
+    "thalamus relays",
+    "the thalamus relays",
+    "thalamus plays",
+    "the thalamus plays",
+    "thalamus serves",
+    "the thalamus serves",
+    "thalamus has",
+    "the thalamus has",
+    "thalamus may",
+    "the thalamus may",
+    "thalamus could",
+    "the thalamus could",
+    "thalamus contributes",
+    "the thalamus contributes",
+    "thalamus mediates",
+    "the thalamus mediates",
+    "thalamus provides",
+    "the thalamus provides",
+    "thalamus is associated with",
+    "the thalamus is associated with",
+    "thalamus was associated with",
+    "the thalamus was associated with",
+    "thalamus were associated with",
+    "the thalamus were associated with",
+    "thalamus has been identified as",
+    "the thalamus has been identified as",
+    "thalamus could modulate",
+    "the thalamus could modulate",
+    "thalamus which provides",
+    "the thalamus which provides",
+]
+
+# ── Appositive pattern: "the thalamus, <phrase>," ────────────────────────────
+APPOSITIVE_PATTERN = re.compile(
+    r"\b(the\s+)?thalamus\s*,\s*([^,]{5,200})\s*,",
+    re.IGNORECASE,
+)
+
+
+# ── Sentence-level utility functions ─────────────────────────────────────────
+def split_into_sentences(text: str) -> list[str]:
+    if not isinstance(text, str) or not text.strip():
+        return []
+    text = re.sub(r"\s+", " ", text).strip()
+    return re.split(r"(?<=[.!?])\s+", text)
+
+
+def contains_thalamus(sentence: str) -> bool:
+    return bool(THALAMUS_PATTERN.search(sentence))
+
+
+def match_verb_trigger(sentence: str) -> Optional[str]:
+    s = sentence.lower()
+    for trigger in VERB_TRIGGERS:
+        if trigger in s:
+            return trigger
+    return None
+
+
+def extract_appositive(sentence: str) -> Optional[str]:
+    match = APPOSITIVE_PATTERN.search(sentence)
+    if not match:
+        return None
+
+    phrase = match.group(2).strip()
+    bad_phrases = {
+        "however",
+        "therefore",
+        "for example",
+        "for instance",
+        "in contrast",
+        "in turn",
+    }
+    if phrase.lower() in bad_phrases:
+        return None
+
+    return phrase
+
+
+def classify_sentence(sentence: str) -> Tuple[bool, Optional[str], Optional[str]]:
+    verb_trigger = match_verb_trigger(sentence)
+    appositive_phrase = extract_appositive(sentence)
+
+    is_framing = verb_trigger is not None or appositive_phrase is not None
+    return is_framing, verb_trigger, appositive_phrase
+
+
+# ── Main extraction logic ─────────────────────────────────────────────────────
+def extract_sentences_from_fulltext(df: pd.DataFrame) -> Tuple[pd.DataFrame, pd.DataFrame]:
+    all_rows = []
+    framing_rows = []
+
+    for _, row in df.iterrows():
+        pmid = row.get("pmid")
+        pmcid = row.get("pmcid")
+        year = row.get("year")
+        journal = row.get("journal")
+        title = row.get("title")
+        publication_types = row.get("publication_types")
+        text = row.get("full_text")
+
+        sentences = split_into_sentences(text)
+
+        for i, sentence in enumerate(sentences):
+            if not contains_thalamus(sentence):
+                continue
+
+            is_framing, verb_trigger, appositive_phrase = classify_sentence(sentence)
+
+            base_row = {
+                "pmid": pmid,
+                "pmcid": pmcid,
+                "year": year,
+                "journal": journal,
+                "title": title,
+                "publication_types": publication_types,
+                "sentence_index": i,
+                "sentence": sentence,
+                "verb_trigger": verb_trigger,
+                "appositive_phrase": appositive_phrase,
+                "is_framing": is_framing,
+                "text_source": "xml_or_pdf_fulltext",
+            }
+
+            all_rows.append(base_row)
+
+            if is_framing:
+                framing_rows.append(base_row)
+
+    all_sentences_df = pd.DataFrame(all_rows)
+    framing_sentences_df = pd.DataFrame(framing_rows)
+
+    return all_sentences_df, framing_sentences_df
+
+
+# ── Entry point ───────────────────────────────────────────────────────────────
+def main() -> None:
+    settings = load_settings()
+    dirs = build_data_dirs(settings["data_root"])
+
+    # Update the filename below if a newer fulltext export has been produced.
+    input_path = dirs["interim"] / "fulltext" / "pmc_fulltext_2026-03-26.csv"
+
+    if not input_path.exists():
+        raise FileNotFoundError(f"Input file not found: {input_path}")
+
+    df = pd.read_csv(input_path, dtype={"pmid": str, "pmcid": str})
+
+    if "full_text" not in df.columns:
+        raise KeyError("Input CSV must contain a 'full_text' column.")
+
+    all_sentences_df, framing_sentences_df = extract_sentences_from_fulltext(df)
+
+    # ── Save outputs ──────────────────────────────────────────────────────────
+    output_dir = dirs["interim"] / "sentence_extraction"
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    all_output = output_dir / "thalamus_all_sentences.csv"
+    framing_output = output_dir / "thalamus_framing_sentences.csv"
+
+    all_sentences_df.to_csv(all_output, index=False)
+    framing_sentences_df.to_csv(framing_output, index=False)
+
+    print(f"Saved all thalamus sentences to: {all_output}")
+    print(f"Number of all thalamus sentences: {len(all_sentences_df)}")
+
+    print(f"Saved framing sentences to: {framing_output}")
+    print(f"Number of framing sentences: {len(framing_sentences_df)}")
+
+
+if __name__ == "__main__":
+    main()

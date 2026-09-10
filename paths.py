@@ -2,7 +2,7 @@ from pathlib import Path
 from typing import Dict
 
 
-def build_data_dirs(data_root: str | Path) -> Dict[str, Path]:
+def build_data_dirs(data_root: str | Path):
     data_root = Path(data_root).expanduser().resolve()
 
     dirs = {

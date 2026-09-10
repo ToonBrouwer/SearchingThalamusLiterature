@@ -1,4 +1,4 @@
-name: thalamus-framing
+name: thalamus-embed
 channels:
   - conda-forge
 dependencies:
@@ -6,6 +6,7 @@ dependencies:
   - pip
   - pandas
   - numpy
+  - scipy                # Mann-Kendall (scipy.stats.kendalltau), Wilson CI
   - requests
   - lxml
   - matplotlib
@@ -14,6 +15,6 @@ dependencies:
   - pyyaml
   - tqdm
   - pip:
-      - sentence-transformers
-      - umap-learn
-      - hdbscan
+      - sentence-transformers  # all-MiniLM-L6-v2 embeddings
+      - umap-learn             # UMAP dimensionality reduction
+      - hdbscan                # HDBSCAN clustering

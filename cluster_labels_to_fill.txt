@@ -1,0 +1,987 @@
+﻿
+================================================================================
+  NOISE  (n=3496, years=1974-2026)
+  Keywords: other:2925, relay:118, role_player:82, modulator:80
+================================================================================
+
+  [2000] These findings reconfirm those found in previous studies and suggest that the thalamus is part of an integral neuronal network concerned with cognitive functions.
+
+  [2024] Regions of interest (ROIs) in the thalamus, globus pallidus and putamen were segmented from 3D T1-weighted images, and lesions segmented from 3D fluid-attenuated inversion recovery images.
+
+  [2015] Their exclusion reflects several difficulties: there was greater tissue distortion in the septal hippocampus and rostral thalamus, reflecting the technical challenges of executing such deep recordings, and because aspects of the electrode tracks were not visible, despite the known excursion of the e...
+
+  [2012] The functioning of the thalamus is crucial to many sensory, motor and cognitive systems, and therefore has also been subject to a great deal of investigation in the cognitive neurosciences (Basso, et al.
+
+  [2025] Notably, we observed a significant positive correlation between the GMV of a large cluster in the left thalamus, covering nearly the entire thalamus, and the DTI-ALPS index.
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 0  (n=136, years=1998-2025)
+  Keywords: other:86, clinical_target:44, involved_in:2, hub_node:1
+================================================================================
+
+  [2013] However, there is lack of data regarding the optimal target structure for surgery in DHT.DBS of the ventrolateral (VL) thalamus is an established treatment option for medically refractory tremor.
+
+  [2024] We have shown that DBS of the motor thalamus is associated with a significant relief of experimentally induced hypercapnic air hunger in patients with tremor.
+
+  [2013] Here, we use low-frequency electrical stimulation of the thalamus, closely matched with postural tremor frequency, to probe the nature of tremor in essential tremor and to define those tremor characteristics that might be targeted to increase stimulation efficacy.
+
+  [2025] Anatomically based therapies targeting the VLp nucleus of the thalamus, have included radiofrequency thalamotomy for the treatment of parkinsonian, essential and cerebellar tremor (23, 29, 30).
+
+  [2021] A surgical strategy for this case was adopted from that of Holmes tremor,5ÔÇô7) given the similar presence of a mixed presentation of basal ganglia and cerebellar tremor.11) Holmes tremor is often treated with multiple stereotactic targets within the striato-pallidal and cerebellar pathways.5ÔÇô7) The v...
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 1  (n=44, years=1990-2025)
+  Keywords: other:39, relay:2, clinical_target:1, involved_in:1
+================================================================================
+
+  [2016] Results of these studies have been heterogeneous, both within and between dystonia types,[1, 2] possibly resulting from differences in details of the VBM algorithm, difficult-to-match demographic variables (such as duration and laterality), or true etiologic heterogeneity across dystonias.[6] In cer...
+
+  [2021] These findings, though not statistically significant, do suggest new evidence that inhibitory signaling within the thalamus is impaired in dystonia.
+
+  [2024] BACKGROUND: The thalamus has a central role in the pathophysiology of idiopathic cervical dystonia (iCD); however, the nature of alterations occurring within this structure remain largely elusive.
+
+  [2025] However, the grey matter volume of the bilateral thalamus, fractional anisotropy in the right anterior corona radiata, right retrolenticular part of the internal capsule and right posterior corona radiata, and the fibre density and cross-section combined in the fibre tract connecting the left ventra...
+
+  [2025] INTRODUCTION: Functional thalamic surgery is known for alleviating isolated focal hand dystonia; however, the optimal target site in the thalamus is not determined.
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 2  (n=365, years=1976-2026)
+  Keywords: other:241, relay:43, modulator:37, role_player:16
+================================================================================
+
+  [2014] Deactivation of the thalamus may also be important for understanding the effects of meditation on pain perception, and may be related to a filtering function and the modulation of ascending pain sensory information.
+
+  [2025] In humans, for example, lesions of the ventroposterolateral (VPL) thalamus, which receives inhibitory input from the RTN, cause Dejerine Roussy syndrome (or thalamic pain syndrome), a rare central NP syndrome, and patients with chronic pain have thalamocortical dysrhythmia, characterized by cortical...
+
+  [2016] Patient 1 experienced complete relief in his stabbing pain but only partial relief in his burning pain; this may relate to the fact that although contact 3 was appropriately positioned within the sensory thalamus, contacts 0, 1 and 2 were outside of the diffusion imaging based depiction of the senso...
+
+  [2023] Rather, there is evidence that the submedial nucleus of the thalamus is exclusively driven by nociceptive stimuli (Dostrovsky and Guilbaud, 1988), and therefore is not the focus of this perspective on innocuous thermal perception (for a review of thalamocortical involvement in pain, see Albe-Fessar ...
+
+  [2019] The thalamus is located in the central forebrain and serves a crucial role in top-down pain processing (Gauriau and Bernard, 2004; EG, 2007a,b; Todd, 2010) and cortico-cortical communication (Sherman, 2016).
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 3  (n=50, years=2010-2025)
+  Keywords: other:38, relay:4, role_player:4, modulator:2
+================================================================================
+
+  [2016] In addition, we also found that the decreased inflow from the bilateral vmPFC to the right PTH correlated positively with headache duration in the patients with migraine, which may suggest that the dysfunctional interaction between the vmPFC and thalamus may result from the negative emotional accumu...
+
+  [2016] The mPFC has widespread anatomical and functional connections with the thalamus 21 and altered functional connectivity between the mPFC and thalamus has commonly been found in migraine studies 10,22.
+
+  [2023] CONCLUSION: Reduced GABA+/Water levels and imbalance of excitation/inhibition in the right thalamus may contribute to migraine chronification.
+
+  [2025] Introduction A substantial amount of evidence indicates that the thalamus is critically involved in the pathophysiology of migraine, as emphasized by recent advances in neuroimaging and electrophysiology [1, 2].
+
+  [2023] In migraine pathogenesis, the thalamus is considered the central integration and processing center of nociceptive information [32].
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 4  (n=43, years=1998-2025)
+  Keywords: other:33, modulator:3, relay:3, involved_in:2
+================================================================================
+
+  [2013] Taken together the aforementioned results show that safety learning, but not fear conditioning, lead to reduction in the level of ABL1 in thalamus and that the thalamus is differentially activated by safety learning.
+
+  [2021] AD thalamus is specifically important for contextual encoding processes, as evidenced by loss of function phenotypes observed in contextual fear conditioning and inhibitory avoidance paradigms, but not in tone fear encoding.
+
+  [2013] Western blot analysis revealed that the ABL1 protein level in thalamus is reduced specifically by safety learning but not fear conditioning when compared to na├»ve rats.
+
+  [2013] For example, pre-training intra-MGm (medial division of the medial geniculate body) thalamic infusion of the NMDA receptor antagonist (APV), which attenuates synaptic transmission in the thalamus, impaired the acquisition of auditory but not contextual fear conditioning (Webber et al., 1999; Maren e...
+
+  [2020] BACKGROUND: Nuclei located in the dorsal midline thalamus, such as the paraventricular nucleus of the thalamus (PVT), are crucial to modulate fear and aversive behaviour.
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 5  (n=71, years=1990-2025)
+  Keywords: other:59, relay:7, modulator:2, hub_node:1
+================================================================================
+
+  [2014] After 20 pulses to each ear, the thalamus is electrically stimulated prior to each acoustic stimulus.
+
+  [2020] Since the temporal interval between sounds is a key factor in both repetitive sound and two-tone stimulus paradigms, we hypothesize that the period of forward suppression in the auditory thalamus may also fall between the suppression periods found in the cortex and midbrain.
+
+  [2024] Results The auditory thalamus is composed of several distinct subnuclei that receive inputs from diverse brain regions56 and relay both sensory and non-sensory information to the ACx.
+
+  [2025] Results The auditory thalamus is composed of several distinct subnuclei that receive inputs from diverse brain regions56 and relay both sensory and non-sensory information to the ACx.
+
+  [2022] Such bidirectional changes were observed in many parameters which suggests that the auditory thalamus acts as a filter that could be adjusted according to behaviorally driven signals from auditory cortex.
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 6  (n=43, years=1991-2026)
+  Keywords: other:30, relay:6, modulator:3, gateway:2
+================================================================================
+
+  [2020] MGB encodes the choice of the mouse, which implies that the auditory thalamus is involved in higher-level sensory-motor processing or some cognitive attributes of the task.
+
+  [2021] Voxels with higher FCOR values to the auditory network were located across several nuclei such as IL, MDm, MDl, medial geniculate (MGN), PuA, and PuL, while voxels connected to the primary visual and higher visual networks were located in the dorsal lateral thalamus, around lateral geniculate (LGN),...
+
+  [2014] Within the thalamus, the MGB is divided into three main subdivisions, i.e., the ventral division, the dorsal division, and the medial division, delineated on the basis of their connections, cytoarchitecture, and physiological properties (Winer, 1984; Imig and Morel, 1985; Huang and Winer, 2000; de l...
+
+  [2024] The MGB is part of the thalamus, consists of three subnuclei, and is a small elevation on the lower edge of the surface of the thalamus between the lateral geniculate body and the pulvinar [21].
+
+  [2025] The core nucleus of the thalamus, the ventral division of the MGB (MGV), sends strong projections to layer 4 of the core cortical fields.1 The dorsal division of the MGB (MGD) projects predominantly to layer 4 of cortical regions adjacent to the core auditory fields.8,9,10 In rats, the MGV accounts ...
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 7  (n=119, years=1983-2023)
+  Keywords: other:102, role_player:6, network_component:3, modulator:2
+================================================================================
+
+  [2020] The thalamus has a key role in the addiction circuitry and has been conceptualised to influence addiction pathology via corticoÔÇÉstriatalÔÇÉthalamocortical loops (Huang, Mitchell, Haber, AliaÔÇÉKlein, & Goldstein, 2018).
+
+  [2014] Recently, emerging evidence has proposed that the thalamus could also be included in the neurocircuitry of addiction.
+
+  [2020] The thalamus, with the highest nAChR density in the brain (Gallezot et al., 2005, Kimes et al., 2003), plays a central role in the cortico-striato-thalamo-cortical reward circuits that are critically implicated in drug addiction (Huang et al., 2018).
+
+  [2023] 4 Recent reviews have suggested that the thalamus acts as more than a relay station between the sensory system, the limbic system, and the cerebral cortex and have highlighted the critical importance of the thalamus in substance use disorders (SUD).
+
+  [2023] DISCUSSION The thalamus is a central node of the corticoÔÇÉstriatoÔÇÉthalamoÔÇÉcortical reward circuit but has been understudied in drug addiction research compared with striatal regions.
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 8  (n=44, years=2000-2025)
+  Keywords: clinical_target:36, other:6, gateway:1, relay:1
+================================================================================
+
+  [2023] Deep brain stimulation (DBS) or ablative surgical intervention in the cerebellar zone of the thalamus is consistently effective against ET (Flora et al., 2010) although some adverse effects of DBS include dyspraxia in 0.47% of cases and incoordination in 1.4% of cases, suggesting that the integrity ...
+
+  [2020] Because the thalamic lesion was located in the sensory nuclei of the thalamus, DBS of the thalamic nuclei was not considered; hence, the patient was referred for epidural brain stimulation by MCS.
+
+  [2025] For refractory or severe cases, non-pharmacological options such as deep brain stimulation (DBS) targeting the internal globus pallidus, ventral intermediate nucleus of the thalamus, or subthalamic nucleus have shown promising results, albeit with potential complications [11].
+
+  [2016] Among these, deep brain stimulation (DBS) of the centromedian-parafascicular nucleus (CM-Pf) of the thalamus is emerging as a valuable treatment modality for patients affected by severe, treatment-resistant TS.
+
+  [2022] Deep brain stimulation (DBS) of the central thalamus is an experimental treatment for restoration of impaired consciousness in patients with severe acquired brain injury.
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 9  (n=372, years=1977-2026)
+  Keywords: other:249, modulator:34, role_player:29, involved_in:14
+================================================================================
+
+  [2025] This group-level exploration of interictal SEEG recordings of the thalamus, mainly explored in the pulvinar, shows associations with post-surgical epilepsy severity outcomes, but also contributes with the broader understanding of subcortical-cortical interactions in focal epilepsies.
+
+  [2018] Studies in rodent models of temporal lobe epilepsy have suggested that neurostimulation in the intralaminar thalamus is capable of reversing the commonly noted post-ictal cortical slow waves (Gummadavelli et al., 2015b) and may participate in the reversal of widespread cortical slow waves seen durin...
+
+  [2023] This suggests that the response to ictal activity in the thalamus could be slower inhibitory signals in response to cortical activity as opposed to the fast frequency activity associated with ictal onset as discussed previously in temporal lobe epilepsy(Englot et al., 2010) and in evaluation of cort...
+
+  [2017] Previous work suggests that the thalamus plays a critical role in thalamocortical network modulation and subcortical arousal maintenance, but its precise seizure-associated functions are not known.
+
+  [2022] In patients with prolonged partial seizures, dysfunction of the thalamus could facilitate propagation of epileptiform activity via cortico-thalamo-cortical pathways (Rosenberg et al., 2006).
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 10  (n=96, years=1979-2026)
+  Keywords: other:75, involved_in:9, role_player:5, integrator:2
+================================================================================
+
+  [2025] Furthermore, due to the assumption that subcortical regions are not significantly involved in language-related tasks, the thalamus has rarely been analyzed in relation to other language-relevant cortical regions.
+
+  [2008] More recently, the thorough review of Nadeau and Crosson (1997) of the subcortical aphasias implicates the thalamus, but not the basal ganglia, in language processing.
+
+  [2013] In derivations from DBS electrodes in the ventrolateral thalamus, nearby generated language-related potentials (LRP) were identified during syntactic phrase analysis, interspersed between left frontal and temporo-cortical LRPs.
+
+  [2018] The thalamus may play a role in language and be involved in the activation of cortical language areas, and in the linguistic integration function via verbal memory and semantic mechanisms.
+
+  [2013] Thus, we are the first to provide a detailed account of inferred circuitry involving basal ganglia, thalamus, and Broca's area, which would be a prerequisite to substantiate their support of language processing.
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 11  (n=221, years=1996-2026)
+  Keywords: other:174, role_player:8, relay:7, gateway:6
+================================================================================
+
+  [2017] This raises the possibility that anatomical connectivity between the PFC and mediodorsal thalamus may be 1) reduced in schizophrenia and 2) related to deficits in executive function.
+
+  [2025] These findings are substantiated by previous literature, showing a reduction in pulvinar volume in adolescents on the psychotic spectrum.33 Post-mortem studies have found smaller pulvinar volumes and neuron numbers in schizophrenia.29,43 The pulvinar is the largest nuclear group within the thalamus ...
+
+  [2023] Functional neuroimaging studies of psychosis spectrum disorders have consistently identified alterations in the functional connectivity (FC) of the thalamus, specifically, increased connectivity to somatomotor brain regions and decreased connectivity to frontoparietal associative regions compared to...
+
+  [2021] Because of the rich interconnectedness of thalamic nuclei with various cortical (e.g., sensory, prefrontal cortices) and subcortical (e.g., hippocampus, striatum, amygdala) regions, the thalamus is uniquely positioned to explain processing abnormalities, such as hallucinations, as well as cognitive ...
+
+  [2016] The present study is a volumetric investigation of all seven subcortical structures (i.e., hippocampus, thalamus, caudate, putamen, pallidum, amygdala, and accumbens) in the CHR state for psychosis acknowledging these methodological facts.
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 12  (n=69, years=1991-2025)
+  Keywords: other:54, relay:3, modulator:3, role_player:3
+================================================================================
+
+  [2021] Also when receiving negative valanced emotional stimulus, antidepressant medication such as selective serotonin reuptake inhibitors (SSRIs) inhibit the enhanced activity of the amygdala, thalamus, and other limbic regions in MDD patients [25, 26].
+
+  [2022] For example, observing the effect of a new antidepressant on regional connectivity of the right thalamus may be an effective approach to predict clinical response.
+
+  [2022] Anatomically interconnected with the PFC, striatum and amygdala, the thalamus serves as a hub in response to the relay and distribution of afferent signals.2 Its reciprocal connections with cortical and subcortical regions enable the thalamus to facilitate exchanges of subcortical information with t...
+
+  [2025] BACKGROUND: The thalamus is a crucial subcortical structure in etiological models of major depressive disorder (MDD).
+
+  [2022] The LCSPT circuit plays a centric role in the structural brain alterations of depression, of which the thalamus is indispensable, with microstructural deficits underlying the macroscopic morphological changes.
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 13  (n=92, years=2008-2026)
+  Keywords: other:72, relay:8, role_player:4, structure_description:3
+================================================================================
+
+  [2023] Introduction The thalamus is a deep gray matter (DGM) structure with extensive cortical and subcortical connectivity, existing as a relay center affected by the disease processes of multiple sclerosis (MS).
+
+  [2020] This method also revealed diffuse pathology in deep brain nuclei structures, including the thalamus, in patients with multiple sclerosis (Bonnier et al., 2016).
+
+  [2025] We only identified three MS donors that contained demyelinating lesions in the whole thalamus, which were all surrounded by a rim of HLA-DR+ cells, indicating the presence of chronic active lesions.
+
+  [2024] Introduction Gray matter pathology is prominent in patients with multiple sclerosis (PwMS), with degenerative processes initiating early in the disease course and correlating with clinical disability and cognitive performance.1,2 Among gray matter structures, the thalamus plays a pivotal role, servi...
+
+  [2025] Introduction Atrophy in the thalamus, a key central nervous system relay center, is among the earliest structural brain changes observed in patients with multiple sclerosis (MS) [1,2].
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 14  (n=64, years=2001-2026)
+  Keywords: other:55, modulator:3, role_player:2, relay:2
+================================================================================
+
+  [2017] Specific to the thalamus, decreases in centrality (or hub-like network properties) have been noted with propofol anesthesia (Gili et al., 2013).
+
+  [2015] Introduction The thalamus is a crucial crossroad structure in the brain that is recognized as a major contributor to the following functions: sensory perception, attention, sleep and arousal, memory, and cognition.
+
+  [2021] It awaits to be examined whether the disruption of thalamo-cortical connections is just due to the binding of dexmedetomidine to presynaptic Alpha-2 receptors in the LC neurons, including their axons, or if binding of dexmedetomidine to postsynaptic Alpha-2 receptors in the thalamus has a particular...
+
+  [2025] When the brain is forced into the MRS by anesthetics propofol, ketamine, or isoflurane, the ephrinB-EphB1 receptor signaling in the VPM of the thalamus is activated, which promotes the recovery of VPM neuron excitability and consciousness from anesthetic inhibition.
+
+  [2022] Epithalamic nuclei tightly connected to the thalamus, like the lateral habenula LHb, are activated by several anesthetics as well [35].
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 15  (n=226, years=1979-2026)
+  Keywords: other:149, role_player:29, modulator:19, relay:9
+================================================================================
+
+  [1997] It is suggested that the preoptic region with the nonspecific thalamus, acting via direct hypothalamo-thalamic connections, is one of the mechanisms involving the preoptic somnogenic system in the initiation of sleep and in the formation of the slow-wave phase of sleep.
+
+  [2022] The central nucleus of the thalamus, as a part of the nonspecific thalamus, acts as a key hub in brain network connectivity alterations induced by general anesthesia and natural sleep in rodents and humans.
+
+  [2019] The thalamus is a subcortical structure normally involved in sleep rhythms and sensory processing through wide interconnections with the cerebral cortex (Steriade et al., 1993).
+
+  [2018] Indeed, excitatory drive from the midline thalamus has emerged as an essential hub for control of cortical excitability21,22, NREM sleep consolidation23 and consciousness24, however, its precise role in sleep-wake control remains unclear.
+
+  [2021] Based on the recent studies that thalamus plays an important role in waking up a sleeping person, here we further investigate the functional connectivity (FC) information between thalamus and other brain regions, in order to make better understanding of the PNE's pathogenesis.
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 16  (n=84, years=1980-2026)
+  Keywords: other:54, role_player:9, modulator:8, involved_in:4
+================================================================================
+
+  [2015] Central thalamus plays a critical role in forebrain arousal and organized behavior.
+
+  [2021] OBJECTIVE: The intralaminar thalamus is well implicated in the processes of arousal and attention.
+
+  [2021] All divisions of MD receive common inputs from several brain areas including the reticular nucleus of thalamus, the mesopontine reticular formation, PPT, LDT, LC and the dorsal and median raphe nuclei of the brainstem which are key components of the arousal system35,36.
+
+  [2015] DOI: http://dx.doi.org/10.7554/eLife.09215.013 These results provide a direct, region-specific visualization of the widespread driving effect that central thalamus has been shown to exert over forebrain, and link prior anatomical and physiological studies on arousal regulation to spatially precise a...
+
+  [2020] Estradiol effects neuronal activity within the thalamus, such as, increasing activity in the thalamus of stressed rats (Ueyama et al., 2006).
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 17  (n=55, years=2010-2025)
+  Keywords: other:33, role_player:8, modulator:3, gateway:3
+================================================================================
+
+  [2024] Overall, we conclude that the thalamus plays a central topological role in brain structures controlling conscious experience.
+
+  [2022] Whether based on neuroanatomy or functional neural-brain networks theory, scholars agree that the thalamus plays an important role in consciousness (11).
+
+  [2021] The thalamus plays crucial roles in consciousness generation and information processing.
+
+  [2025] Notably, both the connectivity gradient and cytoarchitectural gradient support the hypothesis that the matrix cell-rich anterior thalamus is crucial for conscious perception18,23ÔÇô26.
+
+  [2021] To test substrates and measures of consciousness, we recorded simultaneously from frontal cortex, parietal cortex, and subcortical structures, the striatum and thalamus, in awake, sleeping, and anesthetized macaques.
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 18  (n=97, years=1986-2026)
+  Keywords: other:87, modulator:4, gateway:2, hub_node:1
+================================================================================
+
+  [2017] We then performed IHC for GAD67 in Drd2-EGFP mice and found that the midline thalamus is devoid of interneurons (Fig.
+
+  [2024] In addition to providing direct, monosynaptic excitation to the FO thalamus, L6CT neurons also provide disynaptic inhibition via axon collaterals targeted to the inhibitory thalamic reticular nucleus (TRN), which, in turn, projects to the FO thalamus.
+
+  [2024] Aside from the TRN, non-sensory thalamocortical networks including the intralaminar and central medial thalamus, anterior dorsal, and frontal cortices have received relatively less investigation.
+
+  [2016] The thalamus is further dissected into thalamic reticular nuclei (TRN), which are composed of inhibitory neurons, and thalamocortical (TC) nuclei composed of excitatory neurons which reciprocally project each other [11].
+
+  [2023] In addition to these cell types, which occupy most of the thalamus, there are two small thalamic regions where inhibitory neurons target extra-thalamic regions rather than neighboring neurons, the intergeniculate leaflet and the parahabenular nucleus.
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 19  (n=142, years=1978-2026)
+  Keywords: other:127, modulator:8, relay:3, role_player:2
+================================================================================
+
+  [2011] In the VB thalamus, astrocytes can also release gliotransmitters, most notably glutamate that can generate slow inward currents (SICs) in TC neurons and modulate their function (Parri et al., 2001).
+
+  [2020] Our finding that electrical stimulation evokes GABAergic, primarily inhibitory, responses in a subset of neurons across the SPZ, PVN and ventral thalamus is in keeping with known SCN neurochemistry [8, 10, 22]; however, the presence of many cells exhibiting glutamatergic responses is surprising.
+
+  [2015] Furthermore, another recently published animal study could show that phencyclidine leads to a significant reduction of the discharge rate of GABAergic interneurons in the reticular nucleus of the thalamus, leading to a disinhibition of thalamo-cortical activity (Troyano-Rodriguez et al., 2014).
+
+  [2014] The NAA decrease in the gray matter of the thalamus may hint to a damage of GABAergic neurons, whereas frontal increase of GABA and its precursor glutamine may reflect increased density in GABAergic neurons due to subtle cortical disorganization in the thalamofrontal network.
+
+  [2011] The lack of interneurons in the VB thalamus, the distinct properties of SOCs and IPSCs, and the evoking of SOCs by hypo-osmotic stimuli that are known to induce astrocytic transmitter release (Kimelberg et al., 2006), along with a previous report showing that SOCs in the olfactory bulb are dependent...
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 20  (n=69, years=1985-2026)
+  Keywords: other:63, hub_node:2, involved_in:1, network_component:1
+================================================================================
+
+  [2019] It has already been shown that the thalamus is affected in sporadic FTLD10 as well as in other neurodegenerative diseases such as AlzheimerÔÇÖs disease30.
+
+  [2025] In preclinical models, lesions in the thalamus were associated with reduced acetylcholine levels in the hippocampus and impaired learning ability.27 In clinical samples, infarction in the medial and anterior portion of the thalamus was associated with memory deficit and hippocampal atrophy.28,29 The...
+
+  [2024] Despite the primary focus on cortical regions in AlzheimerÔÇÖs research, specific subcortical regions such as the rostral thalamus, locus coeruleus (LC), and dorsal raphe nucleus (DRn) have also been shown to display selective vulnerability to tau pathology [7, 29, 33, 69, 75].
+
+  [2024] The thalamus, with its cortical and subcortical connections, is a critical node in networks supporting cognitive functions known to decline in normal aging [49].
+
+  [2021] preclinical Braak stages IÔÇôII.5,6 Despite its importance in early AlzheimerÔÇÖs disease, the thalamus has not been included in structural MRI-based biomarkers of the disease, which are limited to subcortical regions within the temporal lobe.7,8 It remains unclear whether thalamic neurodegeneration, as...
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 21  (n=88, years=1975-2026)
+  Keywords: other:74, modulator:6, gateway:5, integrator:1
+================================================================================
+
+  [2016] It has been posited that the regulation of burst/tonic firing in the thalamus could function as a mechanism for controlling not only how much but what kind of information is conveyed to downstream cortical targets.
+
+  [2025] While the thalamus is often considered a relay station, it also acts as a critical gate of information; the statistics of sensory inputs and modulatory feedback from the neocortex and brain stem alter how the thalamus conveys sensory information to the neocortex.11ÔÇô13 These inputs alter information ...
+
+  [2022] In the thalamus, focal demyelination leads to the reduced occurrence of burst firing in TC neurons, indicating an effect on ion channels involved in burst generation [38].
+
+  [2013] Therefore, any potential interference with the burst firing mode in the thalamus could lead to an impairment in these interactions, which in turn causes a relative disconnection between cortical areas.
+
+  [2022] Further refinement of this idea suggested that the switching between tonic and burst firing modes of thalamic neurons that is facilitated by the unique dynamics of the T-type calcium channels that are prevalent in the thalamus could establish a context dependent signaling (Sherman and Guillery, 2002...
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 22  (n=70, years=1996-2026)
+  Keywords: other:68, integrator:1, involved_in:1
+================================================================================
+
+  [2011] The actual lineage relationship between the three progenitor cell types in the thalamus is a topic of future investigation.
+
+  [2015] During the late embryonic stages (stages 40ÔÇô45) the patterning of the thalamus is established, and the features of the different gene expression patterns are shown in Figures 3ÔÇô5.
+
+  [2018] To determine whether the clustering of clones based on cell lineage reflects the distinct positions of starting progenitor cells within the embryonic thalamus, we took advantage of the finding that some clones, especially the ones labeled at E9.5 in the Gli1CreER line, retained a cell at the ventric...
+
+  [2021] In the analysis of the Marmoset's thalamus, the fraction of GAD1 single positive cells is low in most TC nuclei tested, this low frequency is partly due to the lower efficiency of the SOX14 probe compared to the GAD1 and therefore a systematic error.
+
+  [2020] This is particularly important in the developing thalamus, where distinct nuclei are compartmentalized and segregated by specialized ECMs (rich in both chondroitin and heparin sulfate proteoglycans [CSPGs and HSPGs, respectively]) that bind traditional FGFs and limit their dispersion and range of ac...
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 23  (n=63, years=2002-2025)
+  Keywords: other:61, modulator:1, role_player:1
+================================================================================
+
+  [2025] Interestingly, OTX2 immunoreactivity within the thalamus, although weaker than NR2F2, was also most highly expressed in post-mitotic cells of the MD (Figure 9G).
+
+  [2012] The Gli2zfd/zfd mutant thalamus is remarkably reduced in size and has a reduced marker expression.
+
+  [2012] In the thalamus, Lhx2/Lhx9 may regulate genes that are essential to complete neuronal development, such that Lhx2/Lhx9 deficient neurons do not reach the terminal neuronal stage.
+
+  [2014] Consistent with a role in controlling GABA subtype identity in the thalamus, rTh markers (Tal1, Sox14) are downregulated upon ectopic expression of Dlx2(D).
+
+  [2012] The fact that the thalamus is only reduced and not completely absent in the Gli2zfd/zfd mutants is most likely due to a compensatory role of Gli3A.
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 24  (n=62, years=1986-2025)
+  Keywords: other:61, relay:1
+================================================================================
+
+  [2019] Interestingly, in addition to the ventralÔÇôbasal complex of the thalamus, TRIP8bÔêÆ/ÔêÆ mice show similar alterations in the HCN channels expression and activation kinetics in some other thalamic nuclei, including posterior-thalamic nucleus (PO; Zobeiri et al., 2018), which is considered as a higher orde...
+
+  [2012] We used a strategy that prevented the formation of corticofugal axons while causing minimal disruption elsewhere, including the thalamus, subpallium, PSPB and adjacent ventral pallium.
+
+  [1999] We propose that the growth of axons from cortex to dorsal thalamus is delayed in two regions: first from E14-E15 at the lateral entrance of the internal capsule and then, from E16, closer to the thalamus, probably within the thalamic reticular nucleus.
+
+  [2020] The point of entry of the axon arising from the thalamus is indicated by black arrows and the initial segment of a branch extending to more lateral areas (data not shown) by thin gray arrows, respectively.
+
+  [2021] In control slices, DiI-labeled axons extended from the thalamus, crossed the diencephalon-telencephalon boundary (DTB), and projected through the internal capsule (Figure 2B, n=8/8).
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 25  (n=83, years=1984-2026)
+  Keywords: other:81, structure_description:2
+================================================================================
+
+  [2017] Differential expression across the dorsal thalamus is already evident at this stage.
+
+  [2021] CaV3.1 is the main channel expressed in the dorsal thalamus, and recent estimates from mRNA sequencing experiments suggest increased levels of the 3.1 mRNA in LP and POm compared to dLGN and VP (Phillips et al., 2019).
+
+  [2022] In concordance with viral titers, the thalamus, hypothalamus, cerebellum, pons, and medulla were highly stained for HSV-1 (Fig.
+
+  [2025] To test our hypothesis, we used data from the Allen Human Brain Atlas to estimate the relative mRNA expression levels of calcium-binding proteins Parvalbumin (PVALB), which is more highly expressed in ÔÇÿcoreÔÇÖ thalamus, and Calbindin (CALB1), which is more highly expressed in ÔÇÿmatrixÔÇÖ thalamus.
+
+  [2024] Key resources table REAGENT or RESOURCESOURCEIDENTIFIERBacterial and virus strainsAAV1-CAG-Flex-jRCaMP1aAddgene100849-AAV1AAV2/9-CaMKIIa-creAddgene105558-AAV9AAV1-CAG-Flex-GCaMP6mAddgene100839-AAV9Deposited dataIn vivo calcium imaging data (fiber photometry)Shin et al.1https://github.com/swyeon11/MN...
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 26  (n=78, years=1983-2026)
+  Keywords: other:76, structure_description:2
+================================================================================
+
+  [1996] The whisker representation in the thalamus, as revealed by the pattern of barreloids, was demonstrated by oblique illumination of the slices and/or later cytochrome oxidase (CO) staining.
+
+  [2016] Introduction Cholinergic neurons in the basal forebrain and brainstem provide widespread projections to numerous brain regions, including the cerebral cortex, hippocampus, thalamus, and TRN (Mesulam et al., 1983).
+
+  [2020] The pattern of distribution of cholinergic axons in the thalamus has been studied in the cat, rat and monkey using a combination of conventional retrograde neuronal tracers and immunohistochemistry for choline acetyltransferase (ChAT; Sofroniew et al., 1985; Hallanger et al., 1987; Par├® et al., 1988...
+
+  [2011] All these conditions affect cholinergic nuclei like the basal forebrain, thalamus, and their innervations to the cerebral cortex (Tenovuo, 2005).
+
+  [2016] Cholinergic neurons in the nBM of the basal forebrain project to the cerebral cortex, hippocampus, and TRN, and that in the PPTg of the brainstem project to the thalamus, new striatum, and basal forebrain.
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 27  (n=72, years=1989-2026)
+  Keywords: other:71, structure_description:1
+================================================================================
+
+  [1997] A T2-weighted scan in magnetic resonance imaging (MRI) showed almost symmetrical high signal intensities in both basal ganglia (including putamen, caudate nucleus, globus pallidus), external capsule, internal capsule thalamus, midbrain, pons and white matter of the peribasal ganglia; but a T1-weight...
+
+  [2018] On magnetic resonance imaging (MRI), high-intensity areas were observed in the left thalamus, putamen, and internal capsule through diffusion-weighted images (Fig.
+
+  [2008] Second, we consider motor, cognitive and neuropsychiatric disorders in patients with lesions restricted to basal ganglia, thalamus, or cerebellum, and recognize that these lesions mimic deficits resulting from cortical lesions, with qualitative differences between the manifestations of lesions in fu...
+
+  [2007] On brain MRI there were high signal intensity lesions involving right anterior thalamus, left posterior basal ganglia, and left hippocampus.
+
+  [2022] Enlarged perivascular space appears as punctate hyperintensities on T2-weighted images, resulting from disseminated infection and is commonly seen in basal ganglia, thalamus, midbrain and cerebellum, together with pseudocysts [10].
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 28  (n=157, years=1978-2026)
+  Keywords: other:141, role_player:5, structure_description:5, relay:3
+================================================================================
+
+  [2022] Consistent with other studies according to which the lateral thalamus is the most common lesion location, the ventral lateral thalamus was most frequently affected (Figure 2A) in our study population.24,25 Anterior and posterior medial (pulvinar) thalamic nuclei were affected less frequently and cou...
+
+  [2024] METHODS AND RESULTS: Isolated thalamic stroke was defined as the presence of lesions solely in the thalamus, excluding cases with lesions in other brain parenchyma areas apart from the thalamus, as identified by brain magnetic resonance imaging or computed tomography scans.
+
+  [2022] A diffusion imaging study of pediatric stroke has found that the thalamus is the most common location of acute diaschisis [30].
+
+  [2015] This study reports a rare case of a paramedian thalamus infarction affecting the dorsomedial area of the thalamus, manifesting as oculomotor nerve palsy, an abnormal behavioral change, and executive dysfunction.
+
+  [2024] In this study, we defined isolated thalamic stroke as the presence of lesions solely in the thalamus, excluding cases with lesions in other brain parenchyma areas apart from the thalamus, as identified by brain magnetic resonance imaging or computed tomography scans.
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 29  (n=47, years=1986-2026)
+  Keywords: other:44, hub_node:1, involved_in:1, network_component:1
+================================================================================
+
+  [2023] PVT: paraventricular nucleus of the thalamus, MDT: mediodorsal thalamic nucleus (including the medial, lateral, and central parts), IMD: intermediodorsal nucleus of the thalamus.
+
+  [1999] In the thalamus, the receptors were distributed rather uniformly and the binding densities and affinities were high (Bmax range of 245.5-437.9 fmol/ mg of tissue, Kd range of 0.136-0.604 nM).
+
+  [1997] They suggest that neurotrophins endogenous to the early embryonic thalamus may be required to promote the survival of its neurons.
+
+  [2023] PVT: paraventricular nucleus of the thalamus, MDT: mediodorsal thalamic nucleus (including the medial, lateral, and central parts), IMD: intermediodorsal nucleus of the thalamus.
+
+  [2009] Images from confocal scans through horizontal sections of C6 that show Fluorogold (FG; transported from thalamus, red), CTb (transported from LPb or PAG, blue), and gephyrin (green).
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 30  (n=106, years=1984-2026)
+  Keywords: other:79, relay:14, modulator:6, network_component:3
+================================================================================
+
+  [2020] Among the neurons that were predictive of the produced interval (intersection of blue and dark red), 3/320 in the thalamus, 17/191 in DMFC, and 1/85 in the caudate were direction selective.
+
+  [2005] Studies on the visual thalamic relays, the lateral geniculate nucleus and pulvinar, provide three key properties that have dramatically changed the view that the thalamus serves as a simple relay to get information from subcortical sites to cortex.
+
+  [2012] While the lack of retrograde tracer does not definitely prove that these neurons do not project to parabrachial or thalamus, it is likely that corneal afferents also contact neurons that do not project to these regions and are involved in other functions, including brainstem reflex pathways involved...
+
+  [2008] They confirm that the afferents from midline/intralaminar/paraventricular thalamic nuclei to rat nAcb synapse mostly on dendritic spines, presumably of medium spiny neurons, and suggest that the excitatory drive of nAcb cholinergic interneurons from thalamus is indirect, either via substance P relea...
+
+  [2021] Experiments in early postnatal mice (P3-P9) showed that retinal waves drive wave-like activity in the visual thalamus, superior colliculus, and the primary and secondary visual cortex.
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 31  (n=141, years=1991-2026)
+  Keywords: other:111, modulator:14, role_player:9, involved_in:2
+================================================================================
+
+  [2026] 97 Overall, the thalamus is key for the generation and maintenance of SWA: It is the main generator of delta waves, and although it does not generate slow waves, it paces and synchronizes them.
+
+  [2013] We tested for four kinds of PAC: local thalamic PAC, between oscillations recorded in the thalamus, cortical PAC between oscillations recorded in the cortex, thalamo-cortical PAC between low frequency (phase) oscillations recorded in the thalamus and high frequency (amplitude) oscillations recorded ...
+
+  [2021] The steerable array principle could be applied in the thalamus, as follows: The phase of the neural signals is the phase of firing relative to some prominent thalamocortical rhythm, for instance, an alpha rhythm at 10 Hz, with a 100 ms cycle time.
+
+  [2025] Emerging evidence even suggests that the thalamus may act as a leading driver of cortical slow waves, initiating bottom-up synchronization 18.
+
+  [2017] Discussion Given the dominant focus on cortical circuits for the mechanistic study of brain oscillations, the thalamus has been somewhat overlooked, despite repeated suggestions that the thalamus may serve as a ÔÇ£pacemakerÔÇØ of brain oscillations [7, 8, 45, 46].
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 32  (n=121, years=1976-2026)
+  Keywords: other:101, structure_description:7, relay:4, modulator:3
+================================================================================
+
+  [2023] The thalamus is a centrally located subcortical region that is divided up into multiple nuclei, some of which receive basal ganglia input, and almost all of which have extensive, segregated and well-organized connections to the cortex (Halassa, 2011; Nakajima and Halassa, 2017; Rikhye et al., 2018b)...
+
+  [2015] The dorsal attention network corresponds to the posterior part of the thalamus, mainly the pulvinar, and lateral posterior nucleus.
+
+  [2025] These targets include more ventral nuclei of the midline thalamus, prelimbic, infralimbic and subicular cortex, various hypothalamic nuclei, the amygdala, the striatum, and the nucleus accumbens (nAcc) (Van der Werf et al.
+
+  [2021] In the abovementioned pathways, the thalamus is a key node.
+
+  [2020] Unlike the sensory thalamus, studies on the functional organization of the midline and intralaminar nuclei are scarce, and this has hindered the establishment of conceptual models of the function of this brain region.
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 33  (n=76, years=1988-2025)
+  Keywords: other:70, structure_description:3, clinical_target:2, relay:1
+================================================================================
+
+  [2023] These findings underscore the importance of the thalamus, and the ANT in particular, in a variety of brain functions.
+
+  [2016] The direct mapping of the thalamic nuclei, such as the Vim through diffusion tractography is not possible, since the lateral thalamus acts as a relay station with specific and somatotopically organized cortico-thalamic connections (Kievit and Kuypers, 1977).
+
+  [2016] Where MEG measures can be localized to thalamus, it lacks spatial resolution to resolve specific thalamic nuclei (Roux et al., 2013).
+
+  [2025] We targeted the bilateral CM-pf nuclei in the central thalamus, implanting multi-channel microelectrodes (Leadpoint, Medtronic, USA) for intraoperative electrophysiological recording.
+
+  [2018] Limitations of indirect anatomical targeting and the importance of image-guided targeting in the ANT have recently been emphasized.5,15,16,18 Direct targeting based on individual visualization of the ANT with improved MRI imaging techniques has largely replaced indirect anatomical targeting using th...
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 34  (n=81, years=1976-2025)
+  Keywords: other:70, role_player:3, involved_in:2, modulator:2
+================================================================================
+
+  [2025] Furthermore, neuronal profiles in the intralaminar thalamus, the direct stimulation site, predicted whether electrostimulation here improved recovery.
+
+  [1995] A revised definition of the boundaries of the gustatory thalamus is suggested and the merits of the thalamic monkey preparation are compared with those of the decerebrate rat model.
+
+  [2005] We extended this investigation to higher-order levels by determining whether amiloride suppressed the responses of cells at the 4th-order gustatory relay in the thalamus, which neurons were affected, the degree of suppression, and whether the subsequent neural code for sodium was altered.
+
+  [2007] A PET investigation of taste sensation in healthy humans showed that the thalamus, insular cortex, anterior cingulated gyrus, parahippocampal gyrus, lingual gyrus, caudate nucleus, and temporal gyri participated in the discrimination of a salty taste.6 However, these studies have not elucidated the ...
+
+  [1998] In fact, the new data show that the gustatory thalamus is not essential for taste detection, sodium appetite, or CTA learning, but is critical for the preparatory (i.e.
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 35  (n=68, years=1996-2026)
+  Keywords: other:54, role_player:3, modulator:3, structure_description:2
+================================================================================
+
+  [2025] While the thalamus is a shared region of these circuits, its role in PD-related anxiety has not been explored so far.ObjectiveTo identify changes in volume of the thalamus and its subnuclei in patients with PD-related anxiety.MethodsCognitively intact PD patients (n = 105) were divided into two grou...
+
+  [2020] Although the thalamus plays a crucial role in processing sensory information and structural and functional abnormalities have been identified in the thalamus of ASD patients, less is known regarding how the thalamus contributes to ASD symptoms at the cellular level.34ÔÇô36 We have characterized the Ih...
+
+  [2022] The thalamus is a complex brain structure associated with filtering a variety of sensory information, Previous studies have found an increased connectivity between the thalamus and sensory networks in individuals diagnosed with ASD compared to control groups (Fu et al.
+
+  [2023] Because the thalamus plays a critical role in sensory processing and neocortical organization early in life, its connectivity with other cortical regions could be key for studying the early onset of core ASD symptoms.
+
+  [1996] Three experiments compared the effects of lesioning areas of thalamus, cortex, and the hippocampal system on delayed matching (DMTS) and nonmatching (DNMTS) to sample.
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 36  (n=46, years=1999-2026)
+  Keywords: other:42, relay:2, role_player:2
+================================================================================
+
+  [2013] One region of the brain particularly vulnerable to secondary mechanisms is the bilateral thalamus, an area that due to its central location is relatively more protected from direct impact in TBI (Fearing et al., 2008).
+
+  [2021] In aged mice (aged at the time of stroke), gliosis in the thalamus is attenuated.
+
+  [2016] Our review provides evidence that thalamus is naturally involved in recovery process as in mild TBIs.
+
+  [2022] (Mahanna-Gabrielli et al., 2019) The premorbid thalamus, marked by increased diffusivity and thus structural impairment, might be particularly vulnerable to diffuse peri- or postoperative inflammation in the central nervous system.
+
+  [2015] The thalamus is highly connected and shows chronic inflammation after central and peripheral nerve damage [5, 7].
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 37  (n=69, years=1992-2025)
+  Keywords: other:58, relay:5, hub_node:2, modulator:2
+================================================================================
+
+  [2025] This suggests that while CSF proximity may not be sufficient to drive lesion formation in the thalamus, it could still contribute to neuronal loss, or tissue damage and atrophy through diffuse inflammatory signals or modulation of microglial behavior.
+
+  [1992] However, large lesions of the lateral thalamus, including the specific relay and reticular nuclei, definitely suppressed ipsilateral SWD, and pentylenetetrazol, THIP or gammabutyrolactone failed to restore the cortical SWD.
+
+  [2023] It also reported a higher association between thalamic atrophy and larger neurons than small neurons and speculated larger relay neurons may be attributed to thalamic atrophy.11 Since thalamus is the brainÔÇÖs ÔÇ£relayÔÇØ station, it is possible that TVs may be affected by Wallerian degeneration and post ...
+
+  [2013] Indeed, the thalamus has been shown in animal models to be a site of retrograde neuronal apoptosis after cortical damage (Martin et al., 2001; Natale et al., 2002) within the first few days post-trauma (Hall et al., 2005).
+
+  [2025] We speculate that pathological changes such as inflammatory response, myelin destruction, neuronal damage, and atrophy in the thalamus could have an impact on its neurotransmission efficacy, which may be related to the microstructural damage of the thalamocortical tract.
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 38  (n=60, years=1996-2025)
+  Keywords: other:40, role_player:5, involved_in:3, modulator:3
+================================================================================
+
+  [2011] We discuss how the visual thalamus contributes to attention, awareness, and visually guided actions, to present a general role for the thalamus in perception and cognition.
+
+  [2010] The neural mechanisms responsible for redirection of attention are incompletely understood, but the intralaminar nuclei of thalamus, long viewed as part of the reticular activating system (Smith et al., 2009), are essential components of this circuitry.
+
+  [2023] Moreover, abnormal activity in the thalamus may be associated with disordered eating behaviors in individuals with BN.
+
+  [2015] The thalamus, particularly the right thalamus, is one of the subcortical structures that are most uniformly accepted as being significantly involved in alertness.
+
+  [2016] Therefore, the alertness function of thalamus is determinant to conflict adaptation, and thalamus and right IFG are crucial nodes of the neural circuit subserving this ability.
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 39  (n=115, years=1983-2026)
+  Keywords: other:78, role_player:10, involved_in:6, relay:6
+================================================================================
+
+  [2022] BACKGROUND: The thalamus plays an essential role in cognition.
+
+  [2022] Or last, feedback to these areas through HO thalamus may violate our hypothesis and act as a driver.
+
+  [2024] Animal work has shown that the thalamus, in partnership with the cortex, is a key nexus of perception and action16,17 and a mediator of behavioral change in the face of evolving contingencies.18 Yet, the MDmc has not been extensively implicated in human paranoia and thus warrants further investigati...
+
+  [2013] The thalamus plays crucial roles in the development and mature functioning of numerous sensorimotor, cognitive and attentional circuits.
+
+  [2023] Due to a variety of design-level challenges in past human work, testing whether and how the functional repertoire of the thalamus is engaged in these distinct cognitive challenges had been inherently difficult.
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 40  (n=197, years=1979-2026)
+  Keywords: other:154, role_player:17, involved_in:13, modulator:8
+================================================================================
+
+  [2022] Our results suggest that the anterior, medial, and posterior medial thalamus, and their associated thalamocortical interactions, contribute to the modulations of distributed cortical activity during working memory.
+
+  [2024] However, those concerns may have been overblown, with a more careful look showing that the thalamus is frequently active in human neuroimaging studies of working memory and cognitive control, despite being rarely mentioned in the hypotheses or discussion (see meta-analysis and discussion by Shine et...
+
+  [2014] Overall, the results indicate that interconnections between the hippocampus and anterior thalamus, via the fornix, help to resolve problems with flexible spatial and temporal cues, but the results also signal the importance of additional, non-fornical contributions to hippocampal-anterior thalamic s...
+
+  [2015] Due in part to the close proximity of the anterior nuclei (ATh) and the intralaminar nuclei of the rostral thalamus, several reports (Mair et al., 2003; Bailey and Mair, 2005; Mitchell and Dalrymple-Alford, 2005, 2006, Wolff et al., 2008; Lopez et al., 2009; Moreau et al., 2013) have compared the di...
+
+  [2020] The midline thalamus, specifically the anterior, intralaminar and ventral midline nuclei, have emerged as significant contributors to cognitive processing, including attention, spatial navigation, working memory, remote memory, and behavioral flexibility.
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 41  (n=253, years=1989-2026)
+  Keywords: other:226, structure_description:15, relay:5, hub_node:5
+================================================================================
+
+  [2021] For every patient at every time point, an MRS voxel (5 ├ù 5 x 10 mm) was placed bilaterally to encompass the left and right VPM thalamus, with the epicenter of each voxel defined according to the following atlas-based coordinates: x = 13 mm lateral to the mid-commissural point, y = 4 mm anterior to t...
+
+  [2017] Because the thalamus has both gray matter and white matter within its structure, additional features derived from DTI are useful to segment the thalamus.
+
+  [2022] For the left thalamus, optimal filter size ranged from 104 to 156 experiments, and for the right thalamus from 106 to 154 experiments (see supplementary Figure S1).
+
+  [2013] For the current regional spectral analyses, a 2D-JMRSI grid was positioned over the central axial slice and shifted in the x and y dimensions to optimally position voxels over regions containing thalamus, temporal lobe, and parieto-occipital cortex.
+
+  [2025] The spatial coordinates provided included approximately 204 voxels of the right thalamus, caudate and putamen (MNI: X = 14, Y = 2, Z = 10) and 247 voxels throughout the left thalamus and caudate (MNI: X = -24, Y = 4, Z = 8).
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 42  (n=44, years=1977-2025)
+  Keywords: other:41, network_component:1, relay:1, structure_description:1
+================================================================================
+
+  [2008] Nevertheless, it seems likely that the cuneate nucleus, as well as other parts of the DCN that receive body input, do project to the dorsal thalamus, as they do in other birds (e.g., pigeons and finches: Wild, 1987a; 1989; 1997), but whether they project topographically to more medial parts of DIVA,...
+
+  [2002] The body surface representation in PV approximates a mirror image of that in S2; (2) Areas PV and S2 are less myelinated and have less cytochrome oxidase enzyme activity than area 3b; (3) The ventroposterior inferior nucleus (VPI) of the thalamus provides the major somatosensory projections to PV.
+
+  [1988] To learn the distribution of cells projecting to the thalamus, as opposed to the cerebellum, in the mechanosensory nuclei of the dorsal medulla of raccoons, we analyzed the retrograde transport of horseradish peroxidase from the ventrobasal complex of the thalamus and from the cerebellum.
+
+  [2001] We report that the extent of cutaneously-driven reorganization in both the cuneate nucleus of the brainstem and the ventroposterior lateral nucleus of the thalamus is comparable to that previously documented for area 3b of cortex.
+
+  [2024] Across nine brains with the AAV-cDIO-fDIO-eYFP reporter injected at three injection sites covering the ventral thalamus, along with AAV1-Cre in the SNr and AAV1-Flp in the DCN (or vice versa), we labeled an average of 1353 ┬▒ 264 cells and found that the majority of dual-input neurons were located wi...
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 43  (n=645, years=1975-2026)
+  Keywords: other:568, structure_description:56, relay:9, role_player:4
+================================================================================
+
+  [1985] The center median, ventrolateral, and the central lateral nuclei of thalamus, SNpc, and SNpd project to lateral caudate nucleus.
+
+  [2018] Within thalamus, the majority of the termination fields target thalamic nuclei in both hemispheres, with the exception of Po, which appears only innervated on the ipsilateral side.
+
+  [2012] Background The adult thalamus is a complex structure in the centre of the brain, comprising clusters of functionally related cells organised into a large number of nuclei.
+
+  [2020] The thalamus has a heterogeneous cytoarchitecture, with at least two distinct cell classes that send differential projections to the cortex: granular-projecting 'Core' cells and supragranular-projecting 'Matrix' cells.
+
+  [2025] The thalamus is divided into different nuclei and each nucleus has unique inputs and projections towards different cerebral cortical regions.
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 44  (n=99, years=1997-2026)
+  Keywords: other:88, structure_description:10, relay:1
+================================================================================
+
+  [2016] Measures of shape, surface area, and volume for thalamus, striatum, and pallidum were obtained as described previously (Chakravarty et al, 2015; Raznahan et al, 2014).
+
+  [2022] These measures and structures included but were not limited to intracranial volume, whole-brain parenchyma, hippocampus, amygdala, ventricular system, lateral ventricle, third ventricle, inferior lateral ventricle, caudate, putamen, pallidum, hypothalamus, thalamus, pons, midbrain, and gray matter i...
+
+  [2022] We quantified global cortical thickness and normalized deep gray matter (DGM) volumes (fractions of the thalamus, caudate, putamen, and globus pallidus) from high-resolution 3 T MRI at 10 years.
+
+  [2021] Tissue volumes from the thalamus, caudate nucleus, putamen and globus pallidus were calculated in subject space as well as MNI152 space.
+
+  [2021] Mean susceptibility values of the thalamus, caudate nucleus, putamen and globus pallidus for the SLE and healthy control group are displayed in Fig.
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 45  (n=57, years=1994-2025)
+  Keywords: other:46, structure_description:3, involved_in:3, role_player:2
+================================================================================
+
+  [2019] The current study provides novel insight into that thalamus, just like hippocampus and white matter, is severely affected by CIR.
+
+  [2018] These results suggest that structural abnormalities in thalamus may play an etiological role in the development and maintenance of PD.
+
+  [2025] These findings suggest that the left thalamus may play a central role in the altered neural circuitry associated with FM.
+
+  [2013] Our findings provide further evidence that the thalamus may be more strongly involved in the pathophysiology of PD than previously thought.
+
+  [2020] Consequently, the thalamus could modulate lateralized PDs with ictal nature.
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 46  (n=114, years=1978-2026)
+  Keywords: other:80, relay:19, modulator:8, gateway:2
+================================================================================
+
+  [2008] Moving down the electrode into the somatosensory thalamus, it was possible to isolate neurons with receptive fields located in the whiskers, in the forepaw, and finally in the hindpaw (Emmers, 1965; Waite, 1973a; Vahle-Hinz & Gottschaldt, 1983).
+
+  [2021] Although the thalamus is widely known for its role in ÔÇ£relayingÔÇØ signals from the sensory periphery to primary sensory cortices, this function is only carried out in a minor volume of the thalamus, comprised of what are commonly known as ÔÇ£first-orderÔÇØ nuclei (Guillery, 1995).
+
+  [2016] We used the functional source separation algorithm to extract four functionally constrained nodes (brainstem, thalamus, primary sensory radial, and primary sensory motor tangential parietal sources) along the somatosensory pathway.
+
+  [2009] In the lateral thalamus, a much higher proportion of somatosensory (83%) than motor responses (5%) was evoked in NP patients, while the proportion was reversed in PD patients (69% motor vs.
+
+  [2015] Somatosensory thalamus has been shown to project to superficial layers of primary motor cortex (Hooks et al., 2013; Hunnicutt et al., 2014).
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 47  (n=85, years=1981-2025)
+  Keywords: other:72, relay:5, modulator:4, involved_in:3
+================================================================================
+
+  [2014] In the VL thalamus, multiple projections converge and diverge, including pallidal and cerebellar afferents (Gallay et al., 2008).
+
+  [2023] To cross-reference our snRNA-seq dataset of the mouse midline thalamus, we performed integration using RPCA together with the recently published ThalamoSeq RNA-Seq atlas (thalamoseq.janelia.org), which contains single-cell sequenced thalamic cells that project to either motor, auditory, visual, soma...
+
+  [2019] Moreover, the involvement of the laterodorsal and ventrolateral thalamic nuclei has been confirmed in other studies, as each known cerebellar projection synapses onto the thalamus, that functions as a relay (Buckner et al., 2011).
+
+  [2024] Secondary visual thalamus has not yet been similarly studied in rodents.
+
+  [2014] The VL thalamus is associated with more complicated functions and extensive areas of projection compared to the human VIM thalamus.
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 48  (n=130, years=1985-2025)
+  Keywords: other:128, structure_description:2
+================================================================================
+
+  [2009] Specifically, compared to non-stuttering speakers, stuttering speakers showed weaker negative connectivity from the left posterior middle temporal gyrus (PMTG) to the putamen, but stronger positive connectivity from the putamen to the thalamus, from the thalamus to the PMTG and anterior supplementar...
+
+  [2012] DESIGN: We stimulated the precentral gyrus with single-pulse transcranial magnetic stimulation (spTMS) and measured the response to this pulse in synaptically connected regions (thalamus, medial superior frontal cortex, insula) using concurrent functional magnetic resonance imaging.
+
+  [2022] Second, the partial fMRI found ALFF differences in the putamen, caudate nucleus, and thalamus, and fALFF differences in the NAc, caudate nucleus, and precuneus between SCZ and HCs.
+
+  [2020] Bar graphs in A to C display parameter estimates extracted from locations of peak group differences in the main analysis on 2 groups, corresponding to: left anterior/posterior thalamus, right anterior thalamus, and left hippocampus for thalamic activation (A); left hippocampus, left/right precentral...
+
+  [2023] A 2-factor mixed-effects ANOVA showed that the great significant difference in group and time interaction occurred in brain regions including the pars triangularis of the inferior frontal gyrus (IFG), right middle frontal gyrus, right thalamus, left orbitofrontal cortex and left cerebellar Crus I (c...
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 49  (n=267, years=1996-2026)
+  Keywords: other:249, role_player:5, hub_node:4, network_component:3
+================================================================================
+
+  [2022] The curious finding of an additional degree of volume loss in the right thalamus of patients with nonpainful DPN is consistent with findings of a VBM meta-analysis generally revealing significantly lower right thalamic gray matter density in type 1 DM32, as well as with findings indicating that redu...
+
+  [2019] Although the thalamus plays a key modulatory role in the brain, there is a lack of evidence for a relationship between thalamus volumes and clinical function [21, 22, 27, 28].
+
+  [2023] In SAD patients, the gray matter volume of the thalamus is much lower than in HCs, and the possibility of abnormalities in the CSTC circuit has been discussed (17).
+
+  [2015] Despite the paucity of research showing volumetric differences in the thalamus, there is good evidence for the persistence of functional changes in the thalamus associated with adult MDD (Graham et al., 2013; Hamilton et al., 2012).
+
+  [2023] The findings of this research also revealed that there was a substantial and inverse correlation between medication usage duration and thalamus, brainstem, and cerebellar volume.
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 50  (n=136, years=1984-2026)
+  Keywords: other:114, role_player:4, structure_description:4, relay:3
+================================================================================
+
+  [2023] Because the ventral thalamus is targeted in more than half of reported DBS cases for HT, the authors use previously reported electrode coordinate information to create a network connectivity map based on simulated volumes of tissue activated (VTA).
+
+  [2015] This widespread functional connectivity may result from the fact that the thalamus has widely spread structural connectivity with cortical regions.
+
+  [2021] The coupling of regional CBF and remote functional connections in the thalamus has been revealed by previous research.
+
+  [2025] In the case of the thalamus, which lacks the consistent laminar structure of cortex and whose subnuclei are compact and spatially proximal, it remains an open question whether MEGÔÇÉbased analyses can meaningfully resolve differential activity or connectivity patterns across its subregions.
+
+  [2025] In sum, we illustrated how the intrinsic organization of the human thalamus, as defined by TC white matter connections derived from DWI, mirrors thalamic microstructure and functional connectivity, and aligns with distributed structural and functional projections shaping cortical organization.
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 51  (n=134, years=1988-2026)
+  Keywords: other:98, relay:9, modulator:9, network_component:5
+================================================================================
+
+  [2024] Given these GABAergic inputs to thalamus, an intriguing possibility is that the basal ganglia intersect excitatory pathways through motor thalamus, providing a substrate by which the basal ganglia can gate information flow to cortex.
+
+  [2024] The pulvinar complex of the thalamus has attracted particular interest for its potential role as a ÔÇ£conductorÔÇØ, coordinating brain activity across space and time to allow successful information processing from first perceiving incoming information to selecting and then executing a motor response (Bo...
+
+  [2021] This model (the following formula) aimed to investigate the modulatory role of the basal ganglia and cerebellum on the thalamocortical circuit for cortical regions that showed intergroup differences:Yroi=╬▓0+╬▓1XTh+╬▓2XDoP+╬▓3Xinter+¤Áwhere Y roi represents the time series of cortical regions that showed...
+
+  [2025] The thalamus, a central hub within basal ganglia-thalamocortical circuits, plays a crucial role in motor, sensory, and cognitive functions.
+
+  [2021] Moreover, physical connections among cerebellum, basal ganglia and thalamus has been identified through virus injection in animal studies which can regulate the excitationÔÇÉinhibition balance, contributing to epileptic activity (Bostan, Dum, & Strick, 2010; Norden & Blumenfeld, 2002).
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 52  (n=162, years=1976-2026)
+  Keywords: other:124, network_component:17, hub_node:5, relay:5
+================================================================================
+
+  [2021] This is compatible with our study findings, where the anterior nucleus of the thalamus may facilitate a permissive state of increased connectivity whereby IEDs (from different brain regions in this heterogeneous group) can affect the coherence of ÔÇ£activeÔÇØ networks.
+
+  [2023] Specifically, hypoconnectivity was observed involving subcortical (striatum, thalamus, insula, amygdala, putamen), and paralimbic (orbitofrontal cortex, parahippocampal gyrus) regions, consistent with the lack of synchrony in coactivation observed between these brain regions in our study.
+
+  [2024] Introduction The thalamus, with its reciprocal connections to and from cortical, subcortical, and cerebellar areas, is a central active participant in multiple functional brain networks.
+
+  [2025] (64) examined cortico-thalamic BOLD-derived functional connectivity and demonstrated that sensory cortical areas exhibited stronger functional coupling with ÔÇÿcoreÔÇÖ thalamus, whereas association cortical areas exhibited stronger functional coupling with ÔÇÿmatrixÔÇÖ thalamus, and this dichotomy was found...
+
+  [2025] Even though the thalamus is a highly interconnected node in these networks, its role in learning and controlling reaches remains underexplored.
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 53  (n=130, years=1996-2026)
+  Keywords: other:55, hub_node:51, relay:7, structure_description:5
+================================================================================
+
+  [2025] Now, accumulating empirical and computational evidence supports the notion that the thalamus is also a crucial integration hub capable of coordinating and sustaining signals across the cortex (11, 12, 52, 86ÔÇô88).
+
+  [2014] As part of the frontal-striato-thalamic circuits, the thalamus is critically involved in motor, cognitive, and affective control (Aglioti, 1997; Haber and Calzavara, 2009; Strick et al., 1995).
+
+  [2024] The thalamus has a key role in mediating cortical-subcortical interactions but is often neglected in neuroimaging studies, which mostly focus on changes in cortical structure and activity.
+
+  [2023] Therefore, the thalamus is a control hub that mediates cortico-cortical interhemispheric connectivity and synchrony (Figure 7).
+
+  [2025] The thalamus is a central processing hub in the human brain, integrating information from diverse cortical and subcortical regions and sending widespread efferent projections to the entire cortical mantle (K.
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 54  (n=40, years=2012-2026)
+  Keywords: other:30, role_player:3, hub_node:2, integrator:2
+================================================================================
+
+  [2025] Our study highlights that an indepth investigation of cortico-thalamic anatomical circuitry can offer insights into how the thalamus may support distinct types of information flow throughout the brain, which is critical for the computations that enable higher-order cognition in humans.
+
+  [2025] Taken together, these findings support a compelling hypothesis that needs to be tested in future studies: immediate information processing across adjacent cortices may rely primarily on direct cortico-cortical interactions, while the thalamus serves as a central mediator and source of feedback withi...
+
+  [2025] When we subdivided the thalamus, we identified abnormal information flow originating from the thalamic subregion in the slow-5 band, underscoring the importance of this subdivision.
+
+  [2022] As a hub that coordinates activity across cortical and subcortical networks, the thalamus is sensitive to perturbations in physiological and psychological states.
+
+  [2025] The thalamus is a complex brain structure essential for sensory processing, motor regulation, and consciousness.
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 55  (n=365, years=1979-2026)
+  Keywords: relay:177, other:131, modulator:15, gateway:14
+================================================================================
+
+  [2020] The thalamus acts as a sensory relay by directing peripherical information to the cortex and as an integrative hub for cortical representations by mediating cortico-cortical communication (Hwang et al., 2017, Jones, 1998, Malekmohammadi et al., 2015, Sherman and Guillery, 2013).
+
+  [2013] According to our current view, the thalamus relays distinct sensory signals via segregated thalamic pathways to the cortex (Andersson et al.
+
+  [2015] Introduction The thalamus relays sensory information to the cortex.
+
+  [2022] T-type channels regulate thalamocortical processing of sensory information The thalamus is the major gateway for the flow of sensory information from the periphery to the cortex, and many drugs and pathological conditions associated with alterations in sensory processing may disrupt thalamocortical ...
+
+  [2025] These findings suggest that the thalamus is not merely a relay but selectively integrates inputs from multiple regions to build stimulus selectivity and shape the information transmitted to the cortex.
+
+  >>> LABEL: _______________________________________________
+
+================================================================================
+  Cluster 56  (n=175, years=1986-2026)
+  Keywords: other:97, relay:28, gateway:14, modulator:10
+================================================================================
+
+  [2014] This provides indirect connections between cortical areas via the higher-order thalamus, in addition to the direct cortico-cortical connections (Shipp, 2003; Sherman and Guillery, 2006).
+
+  [2017] The thalamus is a central structure important to modulating and processing all mechanoreceptor input destined for the cortex.
+
+  [2025] INTRODUCTION The thalamus is a subcortical structure that has diverse functions in filtering sensory information, regulating cortical excitability, and integrating information across cortical networks (Halassa & Sherman, 2019; Hwang, Bertolero, Liu, & DÔÇÖEsposito, 2017; Sherman & Guillery, 2006; Shin...
+
+  [2024] In this system, cortical activity motifs communicated to the thalamus would provide a biological readout of maturational state, and the thalamus serves as a gate that propagates developmental sequences up the hierarchical S-A axis.
+
+  [2024] We later show that neural activity in the mouse thalamus is consistent with these predictions.
+
+  >>> LABEL: _______________________________________________
+
