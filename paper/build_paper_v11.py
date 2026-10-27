@@ -27,7 +27,7 @@ from docx.shared import Inches, Pt
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 
 # -- paths -----------------------------------------------------------------
-ROOT = Path(r"C:\Users\brouw\Documents\PhD\Projects\LiteratureQueeryThalamusTime")
+ROOT = Path(__file__).resolve().parents[2]
 PUB  = ROOT / "Graphs" / "pub"
 OUT  = ROOT / "Paper" / "thalamus_framing_paper_v11.docx"
 OUT.parent.mkdir(parents=True, exist_ok=True)

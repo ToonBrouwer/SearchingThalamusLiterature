@@ -64,6 +64,22 @@ DOMAIN_NAMES = {
     21: "Tourette & tic disorders",
 }
 
+# Two broad research genres over the domains (defined 2026-09-11), used to
+# show where the relay frame declined (circuit/systems) and where it
+# persists (clinical/imaging).
+CIRCUIT_DOMAINS = {0, 4, 5, 8, 10, 11, 12, 13, 15, 19, 20}
+CLINICAL_DOMAINS = {1, 2, 3, 6, 7, 9, 14, 16, 17, 18, 21}
+GENRES = ["circuit/systems", "clinical/imaging"]
+
+
+def genre_of_domain(domain):
+    """'circuit/systems', 'clinical/imaging' or 'unclustered'."""
+    if domain in CIRCUIT_DOMAINS:
+        return "circuit/systems"
+    if domain in CLINICAL_DOMAINS:
+        return "clinical/imaging"
+    return "unclustered"
+
 # ── Frame taxonomy: semantic groups + fixed colours (consistent across ALL
 #    v18 figures) ─────────────────────────────────────────────────────────
 FRAME_GROUPS = {

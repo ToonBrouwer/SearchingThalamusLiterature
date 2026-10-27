@@ -1,20 +1,63 @@
+# Portable environment for the thalamic-framing project (any OS).
+#   conda env create -f Code/environment.yml
+#   conda activate thalamus-embed
+#
+# Versions are the ones installed in the working Windows environment on
+# 2026-10-27; only packages the code imports are listed (dependencies follow
+# automatically). For the exact Windows + NVIDIA-GPU environment, use
+# environment.lock.yml instead.
+#
+# torch: the default PyPI wheel is CPU-only on Windows, CUDA-enabled on Linux
+# and MPS-enabled on macOS. A GPU is only needed to re-embed sentences
+# (pipeline stages); the v18 figures and analyses run on CPU.
 name: thalamus-embed
 channels:
   - conda-forge
 dependencies:
   - python=3.11
   - pip
-  - pandas
-  - numpy
-  - scipy                # Mann-Kendall (scipy.stats.kendalltau), Wilson CI
-  - requests
-  - lxml
-  - matplotlib
-  - scikit-learn
-  - jupyter
-  - pyyaml
-  - tqdm
+  - ipykernel
   - pip:
-      - sentence-transformers  # all-MiniLM-L6-v2 embeddings
-      - umap-learn             # UMAP dimensionality reduction
-      - hdbscan                # HDBSCAN clustering
+      # core data stack
+      - numpy==2.4.3
+      - pandas==3.0.1
+      - scipy==1.17.1
+      - statsmodels==0.14.6
+      - scikit-learn==1.8.0
+      - matplotlib==3.10.8
+      - plotly==6.6.0
+      - pyyaml==6.0.3
+      - tqdm==4.67.3
+      # networks and clustering (Leiden domain landscape)
+      - networkx==3.6.1
+      - igraph==1.0.0
+      - leidenalg==0.11.0
+      - python-louvain==0.16
+      - umap-learn==0.5.11
+      - hdbscan==0.8.41
+      - faiss-cpu==1.13.2
+      # language models, embeddings and NLP
+      - torch==2.11.0
+      - transformers==4.51.3
+      - sentence-transformers==5.3.0
+      - adapters==1.2.0              # SPECTER2 adapters
+      - bertopic==0.17.4
+      - gensim==4.4.0                # diachronic word2vec
+      - nltk==3.9.4
+      - spacy==3.8.13
+      - https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
+      - https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.8.0/en_core_web_md-3.8.0-py3-none-any.whl
+      # retrieval and full-text extraction (pipeline stages only)
+      - requests==2.33.0
+      - lxml==6.0.2
+      - biopython==1.86
+      - pymupdf==1.27.2.2
+      - pdfplumber==0.11.9
+      - selenium==4.41.0
+      - webdriver-manager==4.0.2
+      - playwright==1.58.0
+      # documents, config, legacy API client
+      - python-docx==1.2.0
+      - python-dotenv==1.2.2
+      - pydantic==2.12.5
+      - anthropic==0.97.0            # legacy only: LLM coding now runs in Claude Code sessions

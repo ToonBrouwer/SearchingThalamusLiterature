@@ -3,8 +3,10 @@ import sys, os, time, shutil
 os.environ["PYTHONIOENCODING"] = "utf-8"
 from pathlib import Path
 
-CHROME_USER_DATA = Path(r"C:\Users\brouw\AppData\Local\Google\Chrome\User Data")
-TEMP_PROFILE = Path(r"C:\Users\brouw\Documents\PhD\Projects\LiteratureQueeryThalamusTime\Data\interim\chrome_profile_copy")
+CHROME_USER_DATA = (Path(os.environ.get("LOCALAPPDATA", "")) / "Google"
+                    / "Chrome" / "User Data")
+TEMP_PROFILE = (Path(__file__).resolve().parents[2] / "Data" / "interim"
+                / "chrome_profile_copy")
 
 print("Step 1: Copy profile...")
 sys.stdout.flush()

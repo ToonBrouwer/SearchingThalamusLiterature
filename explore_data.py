@@ -4,7 +4,8 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='repla
 
 import pandas as pd
 
-DATA = "C:/Users/brouw/Documents/PhD/Projects/LiteratureQueeryThalamusTime/Data"
+from pathlib import Path
+DATA = (Path(__file__).resolve().parents[1] / "Data").as_posix()
 
 # ---- Framing sentences ----
 df = pd.read_csv(f"{DATA}/interim/sentence_extraction/thalamus_framing_sentences.csv")

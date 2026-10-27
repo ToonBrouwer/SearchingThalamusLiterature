@@ -1899,11 +1899,253 @@ def supp_abstract_robustness():
 
 
 # ═════════════════════════════════════════════════════════════════════════
+# Where the relay frame declined, and where it lives. Every regex relay hit
+# was coded blind at sentence level by LLM coders (Code/llm/relay_sentence_*)
+# ─────────────────────────────────────────────────────────────────────────
+RELAY_USE = [  # (llm label, display, colour, dark fill)
+    ("characterization", "claims a relay role", D.FRAME_COLORS["relay"], True),
+    ("mechanistic", "relay as a studied process", "#F2A477", False),
+    ("challenge", "challenges the relay view", WONG["green"], True),
+    ("historical", "cites relay as a past view", "#9ED8C3", False),
+    ("technical", "anatomical label (relay nucleus / neuron)", "#8c8c8c",
+     True),
+    ("off_target", "other structure or junk", "#dedede", False),
+]
+RELAY_NOT_FRAMING = ["technical", "off_target", "junk"]
+RELAY_CLAIM = ["characterization", "mechanistic"]
+RELAY_FOIL = ["challenge", "historical"]
+
+
+def _relay_coded_framing():
+    """Framing sentences with research genre and the blind LLM stance label
+    of every relay hit (junk merged into off_target for display)."""
+    import re
+
+    def norm(t):
+        return re.sub(r"\s+", " ", str(t)).strip()
+
+    k = pd.read_csv(D.V18 / "llm_relay" / "relay_sentence_codes.csv")
+    assert k.llm_label.notna().all(), \
+        "uncoded relay sentences - run Code/llm/relay_sentence_merge.py"
+    k["norm"] = k.sentence.map(norm)
+    k = k.drop_duplicates(["pmid", "norm"])[["pmid", "norm", "llm_label"]]
+    fr = D.load_framing()
+    fr["norm"] = fr.sentence.map(norm)
+    fr = fr.merge(k, on=["pmid", "norm"], how="left")
+    fr = fr.merge(D.load_domains()[["pmid", "domain"]], on="pmid",
+                  how="left")
+    fr["genre"] = fr.domain.map(D.genre_of_domain)
+    fr["use"] = fr.llm_label.replace({"junk": "off_target"})
+    fr["bin"] = (fr.year // 5) * 5
+    return fr
+
+
+INTRO_DISC = ["introduction", "discussion"]
+
+
+def _intro_disc_papers():
+    """Per paper: publication year, genre and number of introduction +
+    discussion sentences (the denominator for framing rates)."""
+    sent = D.load_sentences(usecols=["pmid", "year", "section"])
+    sent = sent[sent.section.isin(INTRO_DISC)]
+    pap = (sent.groupby("pmid")
+           .agg(year=("year", "first"), n_sent=("pmid", "size"))
+           .reset_index())
+    pap["year"] = pd.to_numeric(pap.year, errors="coerce")
+    pap = pap.dropna(subset=["year"])
+    pap["year"] = pap.year.astype(int)
+    pap = pap.merge(D.load_domains()[["pmid", "domain"]], on="pmid",
+                    how="left")
+    pap["genre"] = pap.domain.map(D.genre_of_domain)
+    return pap
+
+
+def _genre_rates(ax, fr, papers, genre, title):
+    """Relay claims, anatomical relay labels and hub per 1,000 introduction
+    + discussion sentences; 95% CI from a paper bootstrap."""
+    s = fr[(fr.genre == genre) & fr.section.isin(INTRO_DISC)]
+    is_rel = s.frame_type.eq("relay")
+    counts = (pd.DataFrame({
+        "pmid": s.pmid,
+        "claim": is_rel & s.llm_label.isin(RELAY_CLAIM),
+        "label": is_rel & s.llm_label.eq("technical"),
+        "hub": s.frame_type.eq("hub")}).groupby("pmid").sum())
+    pap = (papers[papers.genre == genre].set_index("pmid")
+           .join(counts, how="left")
+           .fillna({"claim": 0, "label": 0, "hub": 0}))
+    pap["bin"] = (pap.year // 5) * 5
+    series = [("relay claims (role or process)", D.FRAME_COLORS["relay"],
+               "-"),
+              ("relay as anatomical label", "#8c8c8c", ":"),
+              ("hub", D.FRAME_COLORS["hub"], "-")]
+    rng = np.random.default_rng(20260911)
+    xs, pts, los, his = [], [], [], []
+    for b, g in pap.groupby("bin"):
+        if b < 1980 or len(g) < 15 or g.n_sent.sum() < 1500:
+            continue
+        arr = g[["n_sent", "claim", "label", "hub"]].to_numpy(float)
+        sums = arr[rng.integers(0, len(g), (1000, len(g)))].sum(axis=1)
+        rates = 1000 * sums[:, 1:] / sums[:, [0]]
+        lo, hi = np.percentile(rates, [2.5, 97.5], axis=0)
+        xs.append(g.year.mean())
+        pts.append(1000 * arr[:, 1:].sum(axis=0) / arr[:, 0].sum())
+        los.append(lo)
+        his.append(hi)
+        print(f"  {genre} {b}-{b + 4}: papers {len(g)}, sentences "
+              f"{int(g.n_sent.sum())}, claims {pts[-1][0]:.2f} "
+              f"[{lo[0]:.2f}-{hi[0]:.2f}], label {pts[-1][1]:.2f}, "
+              f"hub {pts[-1][2]:.2f} [{lo[2]:.2f}-{hi[2]:.2f}] per 1k")
+    xs, pts, los, his = map(np.array, (xs, pts, los, his))
+    for j, (lab, col, ls) in enumerate(series):
+        ax.fill_between(xs, los[:, j], his[:, j], color=col, alpha=0.15,
+                        linewidth=0)
+        ax.plot(xs, pts[:, j], color=col, linewidth=2.2, linestyle=ls,
+                marker="o", markersize=4, label=lab)
+
+    yr = pap.groupby("year")[["n_sent", "claim", "hub"]].sum()
+    yr = yr[yr.n_sent >= 300]
+    lines = []
+    for lab, col in [("relay claims", "claim"), ("hub", "hub")]:
+        tau, p = D.mann_kendall(yr.index.values,
+                                (yr[col] / yr.n_sent).values)
+        lines.append(f"{lab} per sentence: τ = {tau:+.2f} "
+                     f"{D.sig_stars(p)}")
+    # relative view: paper-weighted share of framing (all sections)
+    fw = fr[(fr.genre == genre)
+            & ~(fr.frame_type.eq("relay")
+                & fr.llm_label.isin(RELAY_NOT_FRAMING))]
+    share = (fw.assign(claim=fw.frame_type.eq("relay")
+                       & fw.llm_label.isin(RELAY_CLAIM))
+             .groupby(["pmid", "year"]).claim.mean().reset_index())
+    early = 100 * share[share.year.between(2000, 2009)].claim.mean()
+    late = 100 * share[share.year >= 2020].claim.mean()
+    lines.append(f"relay claims as share of framing:\n"
+                 f"{early:.0f}% (2000s) → {late:.0f}% (2020s), "
+                 "paper-weighted")
+    lines.append(f"n = {len(pap):,} papers with section labels")
+    ax.text(0.03, 0.96, "\n".join(lines), transform=ax.transAxes, va="top",
+            fontsize=8.5, color="#444444")
+    ax.set_title(title, fontweight="bold", fontsize=10.5)
+    ax.set_xlabel("year (5-year bins)")
+    ax.set_ylabel("per 1,000 introduction + discussion sentences")
+    ax.set_xlim(1979, 2028)
+    despine(ax)
+    return np.nanmax(his)
+
+
+def fig_relay_genre():
+    """Relay decline by research genre, on blind LLM stance codes."""
+    print("=== v18 Figure: where relay declined and where it lives ===")
+    fr = _relay_coded_framing()
+    fig, axes = plt.subplots(2, 2, figsize=(14, 10.5))
+    ax_a, ax_b, ax_c, ax_d = axes.flat
+
+    # ── A: what the relay mentions are, all papers ───────────────────────
+    f = fr[fr.bin >= 1980]
+    tot = f.groupby("bin").size()
+    keep = tot[tot >= 30].index
+    xs = f.groupby("bin").year.mean().loc[keep]
+    rel = f[f.frame_type == "relay"]
+    tab = (pd.crosstab(rel.bin, rel.use)
+           .reindex(index=keep, columns=[u[0] for u in RELAY_USE],
+                    fill_value=0))
+    share = tab.div(tot.loc[keep], axis=0) * 100
+    ax_a.stackplot(xs, [share[u[0]] for u in RELAY_USE],
+                   colors=[u[2] for u in RELAY_USE],
+                   labels=[u[1] for u in RELAY_USE], alpha=0.92,
+                   linewidth=0)
+    hub = (f[f.frame_type == "hub"].groupby("bin").size()
+           .reindex(keep, fill_value=0) / tot.loc[keep] * 100)
+    ax_a.plot(xs, hub, color=D.FRAME_COLORS["hub"], linewidth=2.6,
+              marker="o", markersize=4, label="hub (all uses)")
+    ax_a.set_xlim(xs.min(), xs.max())
+    ax_a.set_ylim(0, None)
+    ax_a.set_xlabel("year (5-year bins)")
+    ax_a.set_ylabel("% of framing sentences")
+    ax_a.set_title("Most of the relay decline is a vanishing anatomical "
+                   "label\n(all papers)",
+                   fontweight="bold", fontsize=10.5)
+    ax_a.legend(fontsize=7.5, loc="upper right", frameon=False)
+    despine(ax_a)
+    panel_label(ax_a, "A")
+
+    # ── B, C: the two genres on a shared scale ───────────────────────────
+    papers = _intro_disc_papers()
+    top_b = _genre_rates(ax_b, fr, papers, "circuit/systems",
+                         "Circuit & systems: relay claims hold steady,\n"
+                         "but lose ground to hub")
+    top_c = _genre_rates(ax_c, fr, papers, "clinical/imaging",
+                         "Clinical & imaging: relay claims grow,\n"
+                         "and hub grows faster alongside them")
+    for ax in (ax_b, ax_c):
+        ax.set_ylim(0, 1.15 * max(top_b, top_c))
+    ax_b.legend(fontsize=7.5, loc="upper right", frameon=False)
+    panel_label(ax_b, "B")
+    panel_label(ax_c, "C")
+
+    # ── D: how relay is used now, by genre and paper type ────────────────
+    raw = pd.read_csv(
+        D.RAW / "pubmed" / "pubmed_broad_title_only_1950_2026_2026-03-26.csv",
+        usecols=["pmid", "publication_types"],
+        low_memory=False).drop_duplicates("pmid")
+    reviews = set(raw.pmid[raw.publication_types.fillna("")
+                           .str.contains("Review", case=False)])
+    rel = fr[(fr.frame_type == "relay") & (fr.year >= 2010)
+             & fr.genre.isin(D.GENRES)].copy()
+    rel["kind"] = np.where(rel.pmid.isin(reviews), "reviews",
+                           "primary research")
+    rows = [("circuit/systems", "primary research"),
+            ("circuit/systems", "reviews"),
+            ("clinical/imaging", "primary research"),
+            ("clinical/imaging", "reviews")]
+    ys = np.arange(len(rows))[::-1]
+    for (g, kd), yi in zip(rows, ys):
+        sub = rel[(rel.genre == g) & (rel.kind == kd)]
+        left = 0.0
+        for u, lab, col, dark in RELAY_USE:
+            v = 100 * (sub.use == u).mean()
+            ax_d.barh(yi, v, left=left, color=col, height=0.72,
+                      label=lab if yi == ys[0] else None)
+            if v >= 6:
+                ax_d.text(left + v / 2, yi, f"{v:.0f}", ha="center",
+                          va="center", fontsize=7.5,
+                          color="white" if dark else "#333333")
+            left += v
+    ax_d.set_yticks(ys)
+    ax_d.set_yticklabels(
+        [f"{g}\n{kd} (n = {((rel.genre == g) & (rel.kind == kd)).sum()})"
+         for g, kd in rows], fontsize=8.5)
+    ax_d.set_xlim(0, 100)
+    ax_d.set_xlabel("% of relay mentions, 2010–2026")
+    ax_d.set_title("Since 2010, relay lives on as a stated role in clinical "
+                   "papers\nand as a contested view in reviews",
+                   fontweight="bold",
+                   fontsize=10.5)
+    ax_d.legend(fontsize=7.5, ncol=2, loc="upper center", frameon=False,
+                bbox_to_anchor=(0.4, -0.12))
+    despine(ax_d)
+    panel_label(ax_d, "D", x=-0.30)
+
+    fig.suptitle("Where the relay frame declined, and where it lives",
+                 fontweight="bold", fontsize=14)
+    fig.text(0.5, 0.005,
+             "Every regex relay mention (n = 1,728) coded blind at sentence "
+             "level by LLM coders. A: 5-year bins with ≥30 framing "
+             "sentences. B–C: 5-year bins with ≥15 papers; shading = 95% "
+             "paper-bootstrap CI; τ = Mann–Kendall on annual rates.",
+             ha="center", fontsize=8, color="#555555")
+    fig.tight_layout(rect=[0, 0.02, 1, 0.96])
+    save_fig(fig, PUB / "v18_fig_relay_genre")
+    plt.close(fig)
+    print("  saved v18_fig_relay_genre")
+
+
+# ═════════════════════════════════════════════════════════════════════════
 FIGS = {"1": fig1, "2": fig2, "3": fig3, "4": fig4, "5": fig5, "6": fig6,
         "7": fig7, "8": fig8, "8b": fig8b, "supp-reg": supp_regression,
         "nucdom": fig_nucdom, "supp-nuc": supp_nucleus_trends,
         "supp-r008": supp_r008, "supp-abs": supp_abstract_robustness,
-        "planck": fig_planck}
+        "planck": fig_planck, "relay-genre": fig_relay_genre}
 
 
 def main():

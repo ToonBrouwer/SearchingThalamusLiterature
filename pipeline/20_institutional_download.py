@@ -36,7 +36,8 @@ PDF_DIR.mkdir(parents=True, exist_ok=True)
 # Chrome profile
 CHROME_USER_DATA = Path(os.environ.get(
     "CHROME_USER_DATA",
-    r"C:\Users\brouw\AppData\Local\Google\Chrome\User Data"
+    os.path.join(os.environ.get("LOCALAPPDATA", ""), "Google", "Chrome",
+                 "User Data")
 ))
 
 # LibKey config

@@ -1,4 +1,4 @@
-data_root: C:/Users/brouw/Documents/PhD/Projects/LiteratureQueeryThalamusTime/Data
+data_root: ../Data   # relative paths are resolved against Code/
 email: "e.a.brouwer2@uva.nl"
 tool: "searching_thalamus_literature"
 api_key: null

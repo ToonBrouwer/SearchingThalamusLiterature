@@ -29,6 +29,12 @@ def load_settings(path: str | Path = "settings.yml") -> Dict[str, Any]:
     if "data_root" not in settings:
         raise KeyError("`data_root` is missing from settings.yml")
 
+    # A relative data_root is resolved against Code/, so the project can
+    # live anywhere on disk.
+    data_root = Path(settings["data_root"]).expanduser()
+    if not data_root.is_absolute():
+        settings["data_root"] = str((BASE_DIR / data_root).resolve())
+
     return settings
 
 
